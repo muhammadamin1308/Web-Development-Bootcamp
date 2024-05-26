@@ -14,3 +14,11 @@ alert("Hello " + firstLetter + user.slice(1, user.length) + "!")
 let dogAge = prompt("Write your dog's age:")
 let humanAge = (dogAge - 2) * 4 + 21
 alert(humanAge)
+
+//  life in weeks
+function lifeInWeeks(age) {
+    let divide = 90 - age 
+    console.log("You have " + (divide * 365) + " days, " + (divide * 52) + " weeks, and " + (divide * 12) + " months left." )
+    }
+    
+    lifeInWeeks(89)
