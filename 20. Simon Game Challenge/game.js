@@ -41,6 +41,7 @@ function checkAnswer(currentLevel) {
     $("h1").text("Game Over, Press Any Key to Restart");
     let wrongAnswerAudio = new Audio("sounds/wrong.mp3");
     wrongAnswerAudio.play();
+    startOver()
   }
 }
 
@@ -71,6 +72,12 @@ function animatePress(currentColor) {
   }, 100);
 }
 
+
+function startOver(){
+  level = 0
+  gamePattern = []
+  started = false
+}
 //    ^
 //    ^
 //    ^
