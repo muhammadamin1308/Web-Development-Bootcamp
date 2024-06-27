@@ -1,0 +1,8 @@
+ls - list
+mkdir - creates folder
+touch text.html - creates file
+code some.txt - opens on VScode
+rm - remove file
+rm -r - remove folder
+
+
